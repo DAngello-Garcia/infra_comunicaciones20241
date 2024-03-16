@@ -1,5 +1,7 @@
-package laboratorio2;
+package laboratorio3.servidor;
 
+
+import laboratorio2.Persona;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

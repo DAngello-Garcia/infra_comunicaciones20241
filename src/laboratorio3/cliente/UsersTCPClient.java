@@ -1,4 +1,4 @@
-package laboratorio2;
+package laboratorio3.cliente;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

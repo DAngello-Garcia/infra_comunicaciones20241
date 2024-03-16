@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Producto</title>
+</head>
+
+<body>
+
+    <h2>Formulario de Producto</h2>
+    <form id="productForm" action="#" method="post">
+        <label for="codigo">Código:</label><br>
+        <input type="text" id="codigo" name="codigo"><br><br>
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="cantidad">Cantidad:</label><br>
+        <input type="number" id="cantidad" name="cantidad" min="0" max="50"><br><br>
+
+        <label for="valor_compra">Valor de compra:</label><br>
+        <input type="number" id="valor_compra" name="valor_compra" min="0" step="0.01"><br><br>
+
+        <label>Utilidad:</label><br>
+        <input type="radio" id="utilidad_1" name="utilidad" value="0.3">
+        <label for="utilidad_1">30%</label><br>
+        <input type="radio" id="utilidad_2" name="utilidad" value="0.35">
+        <label for="utilidad_2">35%</label><br>
+        <input type="radio" id="utilidad_3" name="utilidad" value="0.4">
+        <label for="utilidad_3">40%</label><br><br>
+
+        <label>IVA:</label><br>
+        <input type="radio" id="iva_1" name="iva" value="0.12">
+        <label for="iva_1">12%</label><br>
+        <input type="radio" id="iva_2" name="iva" value="0.16">
+        <label for="iva_2">16%</label><br>
+        <input type="radio" id="iva_3" name="iva" value="0.19">
+        <label for="iva_3">19%</label><br>
+        <input type="radio" id="iva_4" name="iva" value="0.21">
+        <label for="iva_4">21%</label><br><br>
+
+        <label>Proveedor:</label><br>
+        <input type="radio" id="proveedor_x" name="proveedor" value="x">
+        <label for="proveedor_x">Proveedor X</label><br>
+        <input type="radio" id="proveedor_y" name="proveedor" value="y">
+        <label for="proveedor_y">Proveedor Y</label><br>
+        <input type="radio" id="proveedor_z" name="proveedor" value="z">
+        <label for="proveedor_z">Proveedor Z</label><br>
+        <input type="radio" id="proveedor_w" name="proveedor" value="w">
+        <label for="proveedor_w">Proveedor W</label><br><br>
+
+        <input type="button" value="Calcular valor de venta" onclick="calcularValorVenta()">
+    </form>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
